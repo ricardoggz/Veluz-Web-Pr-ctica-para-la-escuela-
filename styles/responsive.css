@@ -20,6 +20,8 @@
 @media (min-width:240px) and (max-width:880px){
     #home{
         height: 95vh;
+        background-position:center;
+        background-size: cover;
     }
     .jumbotron{
         height: 95vh;
