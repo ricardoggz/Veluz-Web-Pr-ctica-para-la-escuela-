@@ -1,0 +1,40 @@
+/*--Header--*/
+
+@media (min-width:240px) and (max-width:880px){
+    header{
+        background: #1b2632;
+        font-size: 2rem;
+        position: fixed;
+        z-index: 1;
+    }
+    header nav{
+        display: none;
+    }
+    header .hamb{
+        display: flex;
+    }
+}
+
+/*--Jumbotron--*/
+
+@media (min-width:240px) and (max-width:880px){
+    #home{
+        height: 95vh;
+    }
+    .jumbotron{
+        height: 95vh;
+    }
+    .logo-container img{
+        width: 100%;
+    }
+}
+
+/*--Services--*/
+
+@media (min-width:240px) and (max-width:880px){
+    .promos{
+        grid-template-columns: 1fr;
+    }
+}
+
+

@@ -1,0 +1,18 @@
+footer{
+    width: 100%;
+    background: rgb(27, 38, 50);
+    text-align: center;
+    color:#fff;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+.copyright{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    
+}
+.copyright a{
+    text-decoration: none;
+    color:rgba(45,183,234,255);
+}

@@ -1,0 +1,36 @@
+header {
+    width: 100%;
+    background: rgb(27, 38, 50);
+}
+
+header .container
+{
+ max-width: 90%;
+ height:auto;
+ margin:0 auto;
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+}
+header .container .logo
+{
+    width: 70px;
+    margin:0;
+    padding:0;
+    object-fit: contain;
+
+}
+header .container a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 0.5rem;
+}
+header .container a:hover{
+    color:rgba(45,183,234,255);
+    transition: all 300ms ease;
+}
+header .hamb{
+    display: none;
+    padding: 0;
+    
+}
