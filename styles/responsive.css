@@ -20,7 +20,6 @@
 @media (min-width:240px) and (max-width:880px){
     #home{
         height: 95vh;
-        background: url(../img/jumbotron2.jpg);
         background-position:center;
         background-size: cover;
     }
@@ -44,7 +43,7 @@
 
 @media (min-width:240px) and (max-width:880px){
     .login{
-        width:auto;
+        width:90%;
         height: auto;
         padding: 2rem;
         margin: 0 auto;

@@ -1,5 +1,5 @@
 body{
-    background: url(../img/jumbotron2.jpg);
+    background: url(../img/jumbotron4.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -10,7 +10,7 @@ main{
 }
 
 .login{
-    background: #fff;
+    background: rgba(255, 255, 255, 0.835);
     box-shadow:1px 2px 10px rgba(0, 0, 0, 0.281);
     border-radius:8px;
     max-width: 50%;
