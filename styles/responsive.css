@@ -40,4 +40,39 @@
     }
 }
 
+/*--Login--*/
+
+@media (min-width:240px) and (max-width:880px){
+    .login{
+        width:auto;
+        height: auto;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .login h2{
+        padding:0.5rem;
+    }
+    .login h1{
+        display: none;
+    }
+    .login form{
+        width: 100%;
+        height:auto;
+        margin:0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .login input{
+        width: 90%;
+    }
+    
+    .login h2{
+        font-size: 1rem;
+    }
+
+}
+
+
+
 
