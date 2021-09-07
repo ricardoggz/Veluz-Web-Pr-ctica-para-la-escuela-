@@ -9,7 +9,7 @@
     text-align: center;
     font-weight: 400;
 }
-.promos{
+#promos{
     max-width: 90%;
     height: auto;
     margin:0 auto;
@@ -20,7 +20,7 @@
     justify-content: center;
     text-align: center;
 }
-.promos ul li{
+#promos ul li{
     list-style: none;
     padding: 1rem 0;
 }
@@ -43,4 +43,11 @@
 .price{
     font-size: 2rem;
     color:rgba(0, 0, 0, 0.596);
+}
+
+@keyframes mover{
+    0%{
+        transform: translateY(40%);
+        z-index: 1;
+    }
 }

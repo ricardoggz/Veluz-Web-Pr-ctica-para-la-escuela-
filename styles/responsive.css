@@ -34,7 +34,7 @@
 /*--Services--*/
 
 @media (min-width:240px) and (max-width:880px){
-    .promos{
+    #promos{
         grid-template-columns: 1fr;
     }
 }
