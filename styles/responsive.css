@@ -7,11 +7,11 @@
         position: fixed;
         z-index: 1;
     }
-    header nav{
+    header nav .text{
         display: none;
     }
-    header .hamb{
-        display: flex;
+    header nav .icons{
+        display: inline-flex;
     }
 }
 

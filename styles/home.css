@@ -3,7 +3,7 @@
     height:100vh;
     background: url(../img/hero.jpg);
     background-position:center;
-    background-size:contain;
+    background-size:cover;
 }
 .jumbotron{
     background: rgba(0, 0, 0, 0.376);

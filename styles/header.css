@@ -29,7 +29,7 @@ header .container a:hover{
     color:rgba(45,183,234,255);
     transition: all 300ms ease;
 }
-header .hamb{
+header nav .icons{
     display: none;
     padding: 0;
     

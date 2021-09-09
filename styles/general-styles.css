@@ -1,20 +1,24 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Raleway', sans-serif;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-h1{
-    padding:1.5rem 0;
+
+h1 {
+    padding: 1.5rem 0;
     font-weight: 400;
     text-align: center;
 }
-h2{
-    padding:1rem 0;
+
+h2 {
+    padding: 1rem 0;
     font-weight: 400;
 }

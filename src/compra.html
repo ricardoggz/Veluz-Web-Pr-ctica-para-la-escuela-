@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalabe="
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,17 +12,17 @@
     />
     <link rel="stylesheet" href="../styles/general-styles.css" />
     <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/login.css" />
     <link rel="stylesheet" href="../styles/footer.css" />
     <link rel="stylesheet" href="../styles/responsive.css" />
-    <link rel="stylesheet" href="../styles/login.css" />
-    <title>Iniciar sesión</title>
+    <title>Proceso de compra</title>
   </head>
   <body>
     <header>
       <div class="container">
-        <a href="../index.html"
-          ><img src="../img/logo.png" alt="" class="logo"
-        /></a>
+        <a href="../index.html">
+          <img src="../img/logo.png" alt="" class="logo" />
+        </a>
         <nav>
           <a href="../index.html#home"><i class="fas fa-home icons"></i></a>
           <a href="../index.html#services"><i class="fas fa-shopping-bag icons"></i></a>
@@ -37,37 +34,42 @@
     </header>
 
     <main>
-      <h1>Registrarse</h1>
+      <h1>Completar compra</h1>
       <section class="login">
-        <!--<div class="container-login img">
-                <img src="../img/login-ilustration.svg" alt="">
-            </div>-->
-
         <div class="container-login">
           <form action="">
-            <h2>Registrarse como usuario</h2>
+            <h2>Completa los campos para confirmar compra</h2>
             <input
               type="name"
               name="nombre"
               id="nombre"
-              placeholder="Nombre(s):"
+              placeholder="Titular de la tarjeta:"
             />
             <input
-              type="email"
+              type="name"
+              name="ciudad"
+              id="nombre"
+              placeholder="Ciudad:"
+            />
+            <input
+              type="name"
+              name="direccion"
+              id="nombre"
+              placeholder="Dirección:"
+            />
+            <input
+              type="text"
               name="correo"
               id="correo"
-              placeholder="Correo electrónico:"
+              placeholder="Número de cuenta:"
             />
             <input
               type="password"
               name="contrasena"
               id="contrasena"
-              placeholder="Contraseña"
+              placeholder="Tu clave de cuenta (3 digitos):"
             />
-            <input type="button" value="Registrar" class="boton" />
-
-            <p>¿Ya tienes cuenta de usuario? Inicia sesión ahora mismo</p>
-            <a href="login.html" class="new-user">Iniciar sesion</a>
+            <input type="button" value="Realizar compra" class="boton" />
           </form>
         </div>
       </section>
